@@ -1,0 +1,14 @@
+.genreButton {
+	transition: .2s;
+}
+.genreButton:hover {
+	background: var(--hover-color-1);
+}
+.selectedGenre {
+	background-color: var(--base-color-2);
+	color: var(--base-color-1);
+	border-color: var(--outline);
+}
+.selectedGenre:hover {
+	background-color: var(--base-color-2);
+}

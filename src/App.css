@@ -1,0 +1,63 @@
+:root {
+  --base-color-1: #0E0E0E; 
+  --hover-color-1: #1d1d1d;
+  --base-color-2: #FF9000;
+  --base-color-3: white;
+  --base-outline: gray;
+  --color-4: #080808;
+  --scroll-bg: #492b04;
+  --scroll-tab: #d67d08;
+  accent-color: var(--base-color-2);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  opacity: 0;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--scroll-bg);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-tab);
+  border-radius: 5px;
+}
+* {
+  color: var(--base-color-3);
+  outline: none;
+}
+body {
+  background-color: rgb(2, 2, 2);
+  min-height: 100dvh;
+}
+input, button {
+  background-color: var(--base-color-1);
+  border: 1px solid var(--base-outline);
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: var(--base-color-3);
+}
+button:hover {
+  cursor: pointer;
+}
+.app {
+  padding-top: 130px;
+  min-height: 100dvh;
+  max-width: 900px;
+  padding-bottom: 50px;
+  margin: auto;
+  background: var(--color-4);
+}
+.boxForHeader {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  max-width: 900px;
+  height: 130px;
+  position: fixed;
+  margin: auto;
+  overflow: hidden;
+}

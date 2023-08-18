@@ -1,0 +1,8 @@
+.controlButtons {
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr 80px 2fr;
+	width: 300px;
+	grid-gap: 10px;
+	text-align: center;
+	margin: auto;
+}

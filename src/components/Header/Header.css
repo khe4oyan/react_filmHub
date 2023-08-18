@@ -1,0 +1,32 @@
+.header {
+  background: var(--base-color-1);
+  z-index: 100;
+  width: 100%;
+  padding: 10px 15px;
+  box-shadow: 0 5px 30px var(--base-color-2);
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+/* .header__box {} */
+.header__box__headerText {
+  color: var(--base-color-3);
+}
+.header__box__headerText span {
+  color: var(--base-color-1);
+  background: var(--base-color-2);
+  border-radius: 5px;
+  padding: 2px 7px;
+  margin-left: 5px;
+}
+.header__genresBox {
+  display: grid;
+  grid-template-columns: repeat(20, 29%);
+  overflow: scroll hidden;
+  padding: 5px;
+  gap: 3px;
+  margin-top: 10px;
+}
+.header__genresBox button {
+  height: 30px;
+}
