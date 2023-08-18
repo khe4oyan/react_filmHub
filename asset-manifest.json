@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_filmHub/static/css/main.b78e8fb6.css",
+    "main.js": "/react_filmHub/static/js/main.a5b725b4.js",
+    "static/media/loading.png": "/react_filmHub/static/media/loading.54362b28c04abd34208f.png",
+    "index.html": "/react_filmHub/index.html",
+    "main.b78e8fb6.css.map": "/react_filmHub/static/css/main.b78e8fb6.css.map",
+    "main.a5b725b4.js.map": "/react_filmHub/static/js/main.a5b725b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b78e8fb6.css",
+    "static/js/main.a5b725b4.js"
+  ]
+}
