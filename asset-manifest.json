@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react_filmHub/static/css/main.b78e8fb6.css",
-    "main.js": "/react_filmHub/static/js/main.a5b725b4.js",
+    "main.css": "/react_filmHub/static/css/main.09172383.css",
+    "main.js": "/react_filmHub/static/js/main.42a29b75.js",
     "static/media/loading.png": "/react_filmHub/static/media/loading.54362b28c04abd34208f.png",
     "index.html": "/react_filmHub/index.html",
-    "main.b78e8fb6.css.map": "/react_filmHub/static/css/main.b78e8fb6.css.map",
-    "main.a5b725b4.js.map": "/react_filmHub/static/js/main.a5b725b4.js.map"
+    "main.09172383.css.map": "/react_filmHub/static/css/main.09172383.css.map",
+    "main.42a29b75.js.map": "/react_filmHub/static/js/main.42a29b75.js.map"
   },
   "entrypoints": [
-    "static/css/main.b78e8fb6.css",
-    "static/js/main.a5b725b4.js"
+    "static/css/main.09172383.css",
+    "static/js/main.42a29b75.js"
   ]
 }
