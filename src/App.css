@@ -50,14 +50,3 @@ button:hover {
   margin: auto;
   background: var(--color-4);
 }
-.boxForHeader {
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  max-width: 900px;
-  height: 130px;
-  position: fixed;
-  margin: auto;
-  overflow: hidden;
-}

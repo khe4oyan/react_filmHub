@@ -17,13 +17,11 @@ export default function App() {
 
 	return (
 		<div ref={ ref } className="app">
-			<div className='boxForHeader'>
-				<Header 
-					setPage={ setPage }
-					searchText={ searchText }
-					setSearchText={ setSearchText }
-				/>
-			</div>
+			<Header 
+				setPage={ setPage }
+				searchText={ searchText }
+				setSearchText={ setSearchText }
+			/>
 			<ControlButtons 
 				page={ page } 
 				setPage={ setPage }
